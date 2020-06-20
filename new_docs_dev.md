@@ -6,7 +6,7 @@ These instructions assume:
 * You have a local clone of numpy (directly or from a fork)
 * You're in its top level
 
-Thanks to @rossbar for providing and commenting nearly all of these instructions!
+Thanks to [@rossbar](github.com/rossbar/) for providing and commenting nearly all of these instructions!
 
 ```sh
 # Create a fresh environment with python 3.8.
@@ -68,8 +68,19 @@ The scrupulous fix is to go up a level (that is, from doc to numpy) and rebuild 
 
 ## Previewing the revised page
 
-To view the HTML in your browser, the equivalent of the docs top level -- that is, of `https://numpy.org/doc/stable` or 
-`https://numpy.org/devdocs` -- is
+To view the HTML in your browser, the equivalent of the docs top level -- that is, of 
+
+```
+https://numpy.org/doc/stable
+```
+ or 
+
+```
+https://numpy.org/devdocs
+```
+
+is
+
 ```
 file://path-to-your-numpy/doc/build/html
 ```
