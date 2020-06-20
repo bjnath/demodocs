@@ -43,7 +43,7 @@ If the HTML build fails, grep the log for `WARNING`:
 ```
 /home/bjn/numpy_git/numpy-1/doc/source/dev/gitwash/development_setup.rst:106: WARNING: Bullet list ends without a blank line; unexpected unindent.
 ```
-Be alert to cases where nothing gets built (maybe you forgot to save):
+Also be alert to cases where nothing gets built (maybe you forgot to save):
 ```
 build succeeded.
 
