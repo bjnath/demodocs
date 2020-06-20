@@ -64,10 +64,7 @@ use "make dist" or "GITVER=e84f49e62d make html ..."
 Makefile:93: recipe for target 'version-check' failed
 make: *** [version-check] Error 1
 ```
-The right way to fix this is to go up a level (that is, from doc to numpy) and rebuild numpy by rerunning  `pip install -e `. This is time-consuming because in addition to the pip running time, `make html` will rebuild everything. The quick workaround is to set `GITVER` as indicated, but you'll want to do the real update before committing.
-
-
-
+The scrupulous fix is to go up a level (that is, from doc to numpy) and rebuild numpy by rerunning  `pip install -e `. This is time-consuming because in addition to pip's running time, `make html` will rebuild everything. The quick workaround is to set `GITVER` as indicated, but you'll want to do the real update before committing.
 
 ## Previewing the revised page
 
