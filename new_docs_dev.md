@@ -34,9 +34,42 @@ git submodule update --init
 2>&1 make html | tee make_html.log
 ```
 
+## HTML build failures
+
+### Failures from bad .rst coding
 The `tee` commands are optional (for instance, you can just run `pip install -r doc_requirements.txt`), but it's helpful to have a log -- particularly for the HTML build.
 
-If the HTML build fails, check the log for `Warning` (not necessarily errors).
+If the HTML build fails, grep the log for `WARNING`:
+```
+/home/bjn/numpy_git/numpy-1/doc/source/dev/gitwash/development_setup.rst:106: WARNING: Bullet list ends without a blank line; unexpected unindent.
+```
+Be alert to cases where nothing gets built (maybe you forgot to save):
+```
+build succeeded.
+
+The HTML pages are in build/html.
+python3.8 postprocess.py html build/html/*.html
+
+Build finished. The HTML pages are in build/html.
+no targets are out of date.
+```
+### 'version check' failed
+
+`make html` may fail immediately with:
+
+```
+$ make html
+installed numpy e84f49e62d != current repo git version '5345c2575a'
+use "make dist" or "GITVER=e84f49e62d make html ..."
+Makefile:93: recipe for target 'version-check' failed
+make: *** [version-check] Error 1
+```
+The right way to fix this is to go up a level (that is, from doc to numpy) and rebuild numpy by rerunning  `pip install -e `. This is time-consuming because in addition to the pip running time, `make html` will rebuild everything. The quick workaround is to set `GITVER` as indicated, but you'll want to do the real update before committing.
+
+
+
+
+## Previewing the revised page
 
 To view the HTML in your browser, the equivalent of the docs top level -- that is, of `https://numpy.org/doc/stable` or 
 `https://numpy.org/devdocs` -- is
@@ -53,15 +86,3 @@ will be at
 file://path-to-your-numpy/doc/build/html/user/whatisnumpy.html
 ```
 
-## 'version check' failed
-
-A common html build error is:
-
-```
-$ make html
-installed numpy e84f49e62d != current repo git version '5345c2575a'
-use "make dist" or "GITVER=e84f49e62d make html ..."
-Makefile:93: recipe for target 'version-check' failed
-make: *** [version-check] Error 1
-```
-The right way to fix this is to go up a level (that is, from doc to numpy) and rebuild numpy by rerunning  `pip install -e `. This is time-consuming because in addition to the pip running time, `make html` will rebuild everything. The quick workaround is to set `GITVER` as indicated, but you'll want to do the real update before committing.
