@@ -1,3 +1,3 @@
-theme: jekyll-theme-tactile
-title: "Create a NumPy build environment for docs"
+theme: jekyll-theme-minimal
+title: "Docs demo"
 baseurl: /demodocs
