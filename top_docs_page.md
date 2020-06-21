@@ -9,7 +9,7 @@
 ## References
 - [All NumPy subroutines, grouped by function](https://numpy.org/doc/stable/reference/routines.html)
 - [Glossary](https://numpy.org/doc/stable/glossary.html)
-- Table of contents(https://numpy.org/doc/stable/contents.html)
+- [Table of contents](https://numpy.org/doc/stable/contents.html)
 - [Printable documentation and past releases](https://numpy.org/doc)
 - [Outside reading](https://numpy.org/learn/)
 
