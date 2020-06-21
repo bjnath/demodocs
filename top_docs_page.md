@@ -10,6 +10,7 @@
 - All NumPy subroutines, grouped by function
 - Glossary
 - Table of contents
+- Printable documentation
 - Outside reading
 
 ## Deeper guides
