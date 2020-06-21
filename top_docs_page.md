@@ -9,10 +9,13 @@
 ## References
 - [All NumPy subroutines, grouped by function](https://numpy.org/doc/stable/reference/routines.html)
 - [Glossary](https://numpy.org/doc/stable/glossary.html)
-- [Table of contents](https://numpy.org/doc/stable/contents.html)
-- Printable documentation and past releases # would include link to release notes page
-- [Outside reading](https://numpy.org/learn/)
+- [Site table of contents](https://numpy.org/doc/stable/contents.html)
+- Printable documentation 
+- Release notes 
+- Documentation for older releases
 
-## Deeper guides
-- Long-form explanations of ndarrays, ufuncs, broadcast, ...
+## Deeper reading
+- NumPy at a glance
+- Details on ndarrays, ufuncs, broadcast, and more.
+- [Outside sources](https://numpy.org/learn/)
 
