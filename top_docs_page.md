@@ -15,7 +15,3 @@
 
 ## Deeper guides
 - Long-form explanations of ndarrays, ufuncs, broadcast, ...
-
-## Administrative
-- License
-- NumPy Enhancement Proposals (NEPs)
