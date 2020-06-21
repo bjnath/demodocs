@@ -12,6 +12,7 @@
 - [Site table of contents](https://numpy.org/doc/stable/contents.html)
 - Printable documentation 
 - Release notes 
+- Development (pre-release) documentation
 - Documentation for older releases
 
 ## Deeper reading
