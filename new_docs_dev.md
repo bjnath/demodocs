@@ -31,7 +31,7 @@ git submodule update --init
 # To preview your changes after you've edited the .rst, you'll rerun this step.
 2>&1 make html | tee make_html.log
 ```
-Thanks to [@rossbar](github.com/rossbar/) for providing and commenting this.
+Thanks to [@rossbar](github.com/rossbar/) for providing and commenting these steps.
 
 The `tee` commands are optional (for instance, you can just run `pip install -r doc_requirements.txt`), but it's helpful to have a log -- particularly for the HTML build.
 
