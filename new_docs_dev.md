@@ -8,7 +8,7 @@ These instructions assume:
 
 ```sh
 # Create a fresh environment with python 3.8.
-Ignore the "ncurses" message.
+# Ignore the "ncurses" message.
 conda create --name doc-build-38 python==3.8
 
 # Switch to the new environment
