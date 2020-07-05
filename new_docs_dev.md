@@ -27,8 +27,8 @@ conda install Cython
 cd doc
 git submodule update --init
 
-# You're now ready to build the docs. Rerun this step
-# to preview your changes after you've edited the .rst
+# You're now ready to build the docs. 
+# To preview your changes after you've edited the .rst, you'll rerun this step.
 2>&1 make html | tee make_html.log
 ```
 Thanks to [@rossbar](github.com/rossbar/) for providing and commenting this.
