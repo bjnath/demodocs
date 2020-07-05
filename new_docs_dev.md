@@ -55,7 +55,7 @@ no targets are out of date.
 
 ### Failures from bad .rst coding
 
-A failed `make html` looks like:
+`make html` runs, but the final message is:
 ```
 build finished with problems, 10 warnings.
 Makefile:179: recipe for target 'html-build' failed
