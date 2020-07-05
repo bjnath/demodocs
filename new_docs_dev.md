@@ -55,7 +55,7 @@ no targets are out of date.
 
 ### Failures from bad .rst coding
 
-`make html` runs, but the final message is:
+`make html` appears to run to completion, but the final message is something like:
 ```
 build finished with problems, 10 warnings.
 Makefile:179: recipe for target 'html-build' failed
@@ -77,7 +77,7 @@ use "make dist" or "GITVER=e84f49e62d make html ..."
 Makefile:93: recipe for target 'version-check' failed
 make: *** [version-check] Error 1
 ```
-The scrupulous fix is to go up a level (that is, from doc to numpy) and rebuild numpy by rerunning  `pip install -e `. This is time-consuming because in addition to pip's running time, `make html` will rebuild everything. The quick workaround is to set `GITVER` as indicated, but you'll want to do the real update before committing.
+The scrupulous fix is to go up a level (that is, from doc to numpy) and reinstall numpy by rerunning  `pip install -e `. This is time-consuming because after the reinstall `make html` rebuilds from scratch. A quick workaround is to set `GITVER` as indicated, but before you submit the PR ensure your doc is clean by doing the reinstall and rebuild.
 
 ## Previewing the revised page
 
