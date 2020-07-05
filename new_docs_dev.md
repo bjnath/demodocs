@@ -3,10 +3,8 @@
 These instructions assume:
 
 * Anaconda is installed
-* You have a local clone of numpy (directly or from a fork)
+* You have a local clone of numpy
 * You're in its top level
-
-Thanks to [@rossbar](github.com/rossbar/) for providing and commenting nearly all of these instructions!
 
 ```sh
 # Create a fresh environment with python 3.8.
@@ -33,19 +31,12 @@ git submodule update --init
 # to preview your changes after you've edited the .rst
 2>&1 make html | tee make_html.log
 ```
+Thanks to [@rossbar](github.com/rossbar/) for providing and commenting this.
 
-## HTML build failures
-
-### Failures from bad .rst coding
 The `tee` commands are optional (for instance, you can just run `pip install -r doc_requirements.txt`), but it's helpful to have a log -- particularly for the HTML build.
 
-If the HTML build fails, grep the log for `WARNING`:
-```
-/home/bjn/numpy_git/numpy-1/doc/source/dev/gitwash/development_setup.rst:106: WARNING: Bullet list ends without a blank line; unexpected unindent.
-```
-These appear deep in the log.
-
-Also be alert to cases where nothing gets built (maybe you forgot to save):
+## HTML build success
+You'll see
 ```
 build succeeded.
 
@@ -53,8 +44,28 @@ The HTML pages are in build/html.
 python3.8 postprocess.py html build/html/*.html
 
 Build finished. The HTML pages are in build/html.
+```
+Be alert to "successes" where nothing got built (perhaps you forgot to save your changes):
+```
+Build finished. The HTML pages are in build/html.
 no targets are out of date.
 ```
+
+## HTML build failures
+
+### Failures from bad .rst coding
+
+A failed `make html` looks like:
+```
+build finished with problems, 10 warnings.
+Makefile:179: recipe for target 'html-build' failed
+make: *** [html-build] Error 1
+```
+Grep the log for `WARNING`; for example:
+```
+/home/bjn/numpy_git/numpy-1/doc/source/dev/gitwash/development_setup.rst:106: WARNING: Bullet list ends without a blank line; unexpected unindent.
+```
+
 ### 'version check' failed
 
 `make html` may fail immediately with:
