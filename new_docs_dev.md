@@ -122,7 +122,6 @@ get a fresh copy of the source:
 ```
 rm -rf numpy
 git checkout HEAD .
-
 ```
 Then rebuild.
 
