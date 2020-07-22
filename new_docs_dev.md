@@ -65,6 +65,11 @@ Grep the log for `WARNING`; for example:
 ```
 /home/bjn/numpy_git/numpy-1/doc/source/dev/gitwash/development_setup.rst:106: WARNING: Bullet list ends without a blank line; unexpected unindent.
 ```
+If you see inexplicable warnings from a file you haven't changed, something's gotten corrupted; run
+```
+make clean
+```
+and rerun `make html`.
 
 ### 'version check' failed
 
@@ -78,6 +83,51 @@ Makefile:93: recipe for target 'version-check' failed
 make: *** [version-check] Error 1
 ```
 The fix is to go up a level (that is, from doc to numpy) and reinstall numpy by rerunning  `pip install -e `. This is time-consuming because after the reinstall `make html` will rebuild from scratch. A workaround is to set `GITVER` as indicated, but before you submit the PR ensure your doc and environment is clean by doing the reinstall and rebuild.
+
+### 'numpy not found'
+
+Even after what looks like a successful NumPy rebuild:
+```
+$ 2>&1 pip install -e . | tee pip_install.log
+ ...
+Successfully installed numpy
+```
+you may see a message like this when you `make html`:
+
+```
+$ make html
+numpy not found, cannot build documentation without successful "import numpy"
+Makefile:90: recipe for target 'version-check' failed
+make: *** [version-check] Error 1
+```
+This means the installed numpy isn't working, as you can verify by seeing if a traceback occurs when you run
+```
+$ python -c 'import numpy as np'
+```
+[Remove the numpy install and rebuild NumPy](#removing-and-rebuilding-the-numpy-install).
+
+
+### 'Something is wrong with the numpy installatiom'
+
+The NumPy build may fail with
+```
+ImportError: Something is wrong with the numpy installation. While importing we detected an older version of numpy in ['/home/bjn/numpy_git/numpy-1/numpy']. One uninstall numpy until none is found, then reinstall this version.
+```
+[Remove the numpy install and rebuild NumPy](#removing-and-rebuilding-the-numpy-install).
+
+### Removing and rebuilding the numpy install
+
+In the top level (above docs), delete the numpy directory and
+get a fresh copy of the source:
+```
+rm -rf numpy
+git checkout HEAD .
+
+```
+Then rebuild.
+
+
+
 
 ## Previewing the revised page
 
