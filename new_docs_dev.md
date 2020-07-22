@@ -65,7 +65,7 @@ Grep the log for `WARNING`; for example:
 ```
 /home/bjn/numpy_git/numpy-1/doc/source/dev/gitwash/development_setup.rst:106: WARNING: Bullet list ends without a blank line; unexpected unindent.
 ```
-If you see inexplicable warnings from a file you haven't changed, something's gotten corrupted; run
+If you see inexplicable warnings from a file you haven't changed, assume something's gotten corrupted; run
 ```
 make clean
 ```
