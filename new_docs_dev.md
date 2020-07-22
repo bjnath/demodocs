@@ -109,7 +109,7 @@ $ python -c 'import numpy as np'
 
 ### 'Something is wrong with the numpy installation'
 
-The NumPy build may fail with
+The docs build may fail with
 ```
 ImportError: Something is wrong with the numpy installation. While importing we detected an older version of numpy in ['/home/bjn/numpy_git/numpy-1/numpy']. One uninstall numpy until none is found, then reinstall this version.
 ```
