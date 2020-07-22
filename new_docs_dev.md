@@ -18,7 +18,7 @@ conda activate doc-build-38
 conda install Cython
 
 # Build/install NumPy
-2>&1 pip install . | tee pip_install.log
+2>&1 pip install -e . | tee pip_install.log
 
 # Install additional requirements for the docs
 2>&1 pip install -r doc_requirements.txt | tee pip_install_doc_req.log
@@ -123,9 +123,7 @@ get a fresh copy of the source:
 rm -rf numpy
 git checkout HEAD .
 ```
-Then rebuild.
-
-
+Then rebuild NumPy by running the `pip install -e .` step.
 
 
 ## Previewing the revised page
