@@ -107,11 +107,6 @@ $ python -c 'import numpy as np'
 [Remove the numpy install and rebuild NumPy](#removing-and-rebuilding-the-numpy-install).
 
 
-## NumPy build fails
-
-NumPy should always build cleanly if you've pulled the master branch from the server. Assume
-any error is due to a corrupted install; [remove the numpy install and rebuild NumPy](#removing-and-rebuilding-the-numpy-install).
-
 ### 'Something is wrong with the numpy installation'
 
 The NumPy build may fail with
@@ -119,6 +114,12 @@ The NumPy build may fail with
 ImportError: Something is wrong with the numpy installation. While importing we detected an older version of numpy in ['/home/bjn/numpy_git/numpy-1/numpy']. One uninstall numpy until none is found, then reinstall this version.
 ```
 [Remove the numpy install and rebuild NumPy](#removing-and-rebuilding-the-numpy-install).
+
+
+## NumPy build failures
+
+NumPy should always build cleanly if you've pulled the master branch from the server. Assume
+any error is due to a corrupted install; [remove the numpy install and rebuild NumPy](#removing-and-rebuilding-the-numpy-install).
 
 ### Removing and rebuilding the numpy install
 
