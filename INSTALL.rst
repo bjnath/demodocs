@@ -48,7 +48,7 @@ If it succeeds, you'll see a scikit-image version number, for instance
 
 .. code-block::
 
-   xxx
+   ???
 
 If it fails, it will be obvious.
 
@@ -76,25 +76,27 @@ documentation, run the `version check <#version-check>`_ above.
 Installation via pip and conda
 ------------------------------------------------------------------------------
 
+These install only ``scikit-image`` and its dependencies; pip has an option to
+include related packages.
+
 .. _install-via-pip:
 
 pip
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-These install only scikit-image and its dependencies; there also an option to
-add related packages. It's assumed you can use your system's command line to
+It's assumed you can use your system's command line to
 install packages and are using a
 `virtual environment <https://docs.python.org/3/tutorial/venv.html>`_
 
 [1] There's nothing to stop you from using pip without virtual environments,
-but `it's a bad idea <???>`_. In particular, if you do this do not use 'sudo'
+but `it's a bad idea <???>`_. In particular, if you use bare do this do not use 'sudo'
 or install as root.
 
-To install the current scikit-image you'll need at least Python 3.6. If your Python
-is older, you can find a compatible version of scikit-image from
+To install the current ``scikit-image`` you'll need at least Python 3.6. If your Python
+is older, you can find a compatible version of ``scikit-image`` from
 `an older release <https://github.com/scikit-image/scikit-image/releases>`_.
 
---- explain how to install an older scikit-image
+??? explain how to install an older ``scikit-image``
 
 .. code-block:: sh
 
@@ -121,20 +123,22 @@ conda
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Miniconda is a bare-essentials version of the Anaconda package; you'll need to
-install packages like scikit-image yourself. Like Anaconda, it offers the
+install packages like ``scikit-image`` yourself. Like Anaconda, it offers the
 convenience of installing Python and providing virtual environments.
 
 Adding packages can be unexpectedly slow as Miniconda works out dependencies.
 
 - `conda documentation <https://docs.conda.io>`_
 - `Miniconda <https://docs.conda.io/en/latest/miniconda.html>`_
-- `conda-forge <https://conda-forge.org>`_ a channel maintained with the latest scikit-image package.
+- `conda-forge <https://conda-forge.org>`_ a channel maintained with the latest ``scikit-image`` package.
 
 
 System package manager
 ------------------------------------------------------------------------------
 
-It's best to skip the obvious choice of using a Linux package manager to install ``scikit-image``:
+It's best to skip the obvious choice of using a Linux package manager to install ``scikit-These install only scikit-image and its dependencies; there also an option to
+add related packages.These install only scikit-image and its dependencies; there also an option to
+add related packages.``:
 
 - it's probably backlevel
 
