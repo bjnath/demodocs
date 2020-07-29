@@ -69,6 +69,9 @@ We recommend one of these distributions:
 - `Python(x,y) <https://python-xy.github.io/>`_
 - `WinPython <https://winpython.github.io/>`_
 
+??? Can we spare some words to help people choose?
+
+
 To be sure you reference your installed version in the ``scikit-image``
 documentation, run the `version check <#version-check>`_ above.
 
@@ -114,7 +117,7 @@ the command:
 
     python -m pip install scikit-image[optional]
 
---- why no -U?
+??? why no -U?
 
 
 
