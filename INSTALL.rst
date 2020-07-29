@@ -189,9 +189,9 @@ Unsupported platforms include:
    - Follow the conversation on
      `Issue 4705 <https://github.com/scikit-image/scikit-image/issues/4705>`_.
 
-While we do not directly support the platforms above, many of the core
-developers have experience using the platforms listed above. Do not hesitate to
-ask us questions pertaining to your specific use case.
+Although these platforms lack official support, many of the core
+developers have experience using them. Do not hesitate to
+ask us questions pertaining to your case.
 
 
 The `developer instructions <how-to-contribute>`_,  describe how to build from source.
