@@ -44,7 +44,7 @@ or, from the command line
 
    python -c "import skimage; print(skimage.__version__)"
 
-If it succeeds, you'll see a scikit-image version number, for instance
+If it succeeds, you'll see a ``scikit-image`` version number, for instance
 
 .. code-block::
 
@@ -69,7 +69,7 @@ We recommend one of these distributions:
 - `Python(x,y) <https://python-xy.github.io/>`_
 - `WinPython <https://winpython.github.io/>`_
 
-To be sure you reference your installed version in the scikit-image
+To be sure you reference your installed version in the ``scikit-image``
 documentation, run the `version check <#version-check>`_ above.
 
 
@@ -136,9 +136,7 @@ Adding packages can be unexpectedly slow as Miniconda works out dependencies.
 System package manager
 ------------------------------------------------------------------------------
 
-It's best to skip the obvious choice of using a Linux package manager to install ``scikit-These install only scikit-image and its dependencies; there also an option to
-add related packages.These install only scikit-image and its dependencies; there also an option to
-add related packages.``:
+It's best to skip the obvious choice of using a Linux package manager to install ``scikit-image``:
 
 - it's probably backlevel
 
@@ -168,7 +166,7 @@ to Windows 64-bit.
 
 We are very interested in how ``scikit-image`` is
 `used <https://github.com/scikit-image/scikit-image/issues/4375>`_.
-Tell use the platforms you'd like to see scikit-image on!
+Tell use the platforms you'd like to see ``scikit-image`` on!
 
 Unsupported platforms include:
 
@@ -197,7 +195,7 @@ ask us questions pertaining to your specific use case.
 
 The `developer instructions <how-to-contribute>`_,  describe how to build from source.
 
-If you'd like to package scikit-image for a currently unsupported platform,
+If you'd like to package ``scikit-image`` for a currently unsupported platform,
 reach out on GitHub.
 
 
