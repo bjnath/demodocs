@@ -40,19 +40,17 @@ worked, run the following in a Python shell or Jupyter notebook:
 
 or, from the command line
 
-.. code-block::
+.. code-block:: bash
+
    python -c "import skimage; print(skimage.__version__)"
 
 If it succeeds, you'll see a scikit-image version number, for instance
 
 .. code-block::
+
    xxx
 
-If it fails, you'll see a message like
-
-.. code-block::
-   xxx
-
+If it fails, it will be obvious.
 
 Scientific Python distributions
 ------------------------------------------------------------------------------
