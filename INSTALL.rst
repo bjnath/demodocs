@@ -16,7 +16,7 @@ How you install ``scikit-image`` depends on your needs and skill:
 
 - Easy with pitfalls: `system package manager (yum, apt-get,...) <#system-package-manager>`_.
 
-- `You want to contribute to scikit-image <???>`_.
+- `If you want to contribute to scikit-image <???>`_.
 
 Supported platforms
 ------------------------------------------------------------------------------
