@@ -88,9 +88,10 @@ It's assumed you can use your system's command line to
 install packages and are using a
 `virtual environment <https://docs.python.org/3/tutorial/venv.html>`_
 
-[1] There's nothing to stop you from using pip without virtual environments,
-but `it's a bad idea <???>`_. In particular, if you use ``pip`` without a 
-virtual environment, do this do not use 'sudo' or install as root.
+There's nothing to stop you from using pip without virtual environments,
+but `it's a bad idea that will bite you later<???>`_. 
+In particular, if you use ``pip`` without a 
+virtual environment, ddo not use 'sudo' or install as root.
 
 To install the current ``scikit-image`` you'll need at least Python 3.6. If your Python
 is older, you can find a compatible version of ``scikit-image`` from
