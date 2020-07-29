@@ -100,7 +100,7 @@ To install the current ``scikit-image`` you'll need at least Python 3.6. If your
 is older, you can find a compatible version of ``scikit-image`` from
 `an older release <https://github.com/scikit-image/scikit-image/releases>`_.
 
-??? explain how to install an older ``scikit-image``
+??? Explain how to install an older ``scikit-image``
 
 .. code-block:: sh
 
