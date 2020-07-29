@@ -89,7 +89,7 @@ install packages and are using a
 `virtual environment <https://docs.python.org/3/tutorial/venv.html>`_
 
 There's nothing to stop you from using pip without virtual environments,
-but `it's a bad idea that will bite you later<???>`_. 
+but `it's a bad idea that will bite you later <???>`_. 
 In particular, if you use ``pip`` without a 
 virtual environment, ddo not use 'sudo' or install as root.
 
