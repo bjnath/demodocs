@@ -140,12 +140,13 @@ Adding packages can be unexpectedly slow as Miniconda works out dependencies.
 System package manager
 ------------------------------------------------------------------------------
 
-It's best to skip the obvious choice of using a Linux package manager to install ``scikit-image``:
+It's best to skip the obvious choice of using a Linux package manager to 
+install ``scikit-image``:
 
 - it's probably backlevel
 
-- you have  `the same version-hell potential<???>` as not using virtual
-  environments with pip.
+- you're susceptible to the kinds of problems as pip without virtual
+  environments.
 
 
 Additional help
