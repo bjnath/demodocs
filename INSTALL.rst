@@ -6,7 +6,7 @@ Installing scikit-image
 How you install ``scikit-image`` depends on your needs and skill:
 
 - Simplest solution:
-  `a scientific Python distribution <#scientific-python-distributions>`_.
+  `a scientific Python distribution <#scientific-python-distributions>`_.\
 
 - If you can install Python packages and work in virtual environments:
 
@@ -14,9 +14,9 @@ How you install ``scikit-image`` depends on your needs and skill:
 
   - `conda <#install-via-conda>`_
 
-- Easy with pitfalls: `system package manager (yum, apt-get,...) <#system-package-manager>`_.
+- Easy with pitfalls: `system package manager (yum, apt-get,...) <#system-package-manager>`_
 
-- `Your goal is to contribute to scikit-image <???>`_.
+- `Your goal is to contribute to scikit-image <???>`_
 
 Supported platforms
 ------------------------------------------------------------------------------
