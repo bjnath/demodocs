@@ -8,7 +8,7 @@ How you install ``scikit-image`` depends on your needs and skill:
 - Simplest solution:
   `a scientific Python distribution <#scientific-python-distributions>`_.
 
-- You can install Python packages and work in virtual environments:
+- If you can install Python packages and work in virtual environments:
 
   - `pip <#install-via-pip>`_
 
