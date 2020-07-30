@@ -147,6 +147,30 @@ or other Python packages is not your best option:
   dependency conflicts, just as when using pip without a virtual environment.
 
 Build from source
+------------------------------------------------------------------------------
+Prerequisite: A local version of the ``scikit-image`` git repo.
+
+In the top directory, run
+
+.. code-block:: sh
+
+   pip install -e .
+
+``-e`` installs ``scikit-image`` in editable mode, meaning that ``import``
+will pick up the changes immediately.
+
+If you change Cython files (or have never built them before), you firt 
+will need to run:
+
+.. code-block:: sh
+
+   python setup.py build_ext -i
+
+You'll need to install Cython if this returns a message like
+
+.. code-block:: sh
+
+   ModuleNotFoundError: No module named 'Cython'
 
 
 Additional help
