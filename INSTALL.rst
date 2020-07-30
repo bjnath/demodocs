@@ -16,7 +16,7 @@ How you install ``scikit-image`` depends on your needs and skill:
 
 - Easy but has pitfalls: `system package manager (yum, apt-get,...) <#system-package-manager>`_
 
-- `You're looking to contribute to scikit-image <???>`_
+- `You're looking to contribute to scikit-image <#build-from-source>`_
 
 Supported platforms
 ------------------------------------------------------------------------------
@@ -40,20 +40,20 @@ worked, run the following in a Python shell or Jupyter notebook:
 
 or, from the command line
 
-.. code-block:: bash
+.. code-block:: sh
 
    python -c "import skimage; print(skimage.__version__)"
 
-You'll see the version number if ``scikit-image`` is installed and  
-a failure message otherwise.
+You'll see the version number if ``scikit-image`` is installed and
+an error message otherwise.
 
 Scientific Python distributions
 ------------------------------------------------------------------------------
 
-In a single install you'll get Python, ``scikit-image`` and libraries
-it depends on, and other useful scientific packages. They install into
-an isolated environment, so they won't conflict with any existing
-installed programs.
+In a single install these give you Python,
+``scikit-image`` and libraries it depends on, and other useful scientific
+packages. They install into an isolated environment, so they won't conflict
+with any existing installed programs.
 
 Drawbacks are that the install can be large and you may not get
 the most recent ``scikit-image``.
@@ -64,8 +64,9 @@ We recommend one of these distributions:
 - `Python(x,y) <https://python-xy.github.io/>`_
 - `WinPython <https://winpython.github.io/>`_
 
-To be sure you reference your installed version in the ``scikit-image``
-documentation, run the `version check <#version-check>`_ above.
+When using the ``scikit-image``
+documentation, make sure it's for the version you've installed (see
+`Version check <#version-check>`_ above).
 
 
 Installation via pip and conda
@@ -79,20 +80,23 @@ include related packages.
 pip
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Prerequisites: You can use your system's command line to
+Prerequisites to a pip install: You can use your system's command line to
 install packages and are using a
-`virtual environment <https://docs.python.org/3/tutorial/venv.html>`_
+`virtual environment \
+<https://towardsdatascience.com/virtual-environments-104c62d48c54?gi=2532aa12906#ee81>`_
+(any of
+`several \
+<https://stackoverflow.com/questions/41573587/what-is-the-difference-between-venv-pyvenv-pyenv-virtualenv-virtualenvwrappe>`_\
+).
 
-There's nothing to stop you from using pip without virtual environments,
-but `it's a bad idea that will bite you later <???>`_. 
-In particular, if you use ``pip`` without a 
-virtual environment, do not use ``sudo`` or install as root.
+Nothing can stop you from using pip without virtual environments,
+but `it's a bad idea that will bite you later \
+<https://en.wikipedia.org/wiki/Dependency_hell>`_.
 
-To install the current ``scikit-image`` you'll need at least Python 3.6. If your Python
-is older, you can find a compatible version of ``scikit-image`` from
-`an older release <https://github.com/scikit-image/scikit-image/releases>`_.
-
-??? Explain how to install an older ``scikit-image``
+To install the current ``scikit-image`` you'll need at least Python 3.6. If
+your Python is older, you can find a compatible version of ``scikit-image``
+from `an older release \
+<https://github.com/scikit-image/scikit-image/releases>`_.
 
 .. code-block:: sh
 
@@ -101,16 +105,19 @@ is older, you can find a compatible version of ``scikit-image`` from
   # Install scikit-image
   python -m pip install -U scikit-image
 
-To install related packages often included
-in scientific python distributions use
-the command:
+
+``-U`` upgrades all packages to the newest available version.
+To install a particular ``scikit-image`` version, drop `-U` and use
 
 .. code-block:: sh
 
-    python -m pip install scikit-image[optional]
+   python -m pip install scikit-image==0.14.5
 
-??? why no -U?
+To include a selection of other scientific python packages:
 
+.. code-block:: sh
+
+    python -m pip install -U scikit-image[optional]
 
 
 .. _install-via-conda:
@@ -124,7 +131,7 @@ Python and provides virtual environments.
 
 - `conda documentation <https://docs.conda.io>`_
 - `Miniconda <https://docs.conda.io/en/latest/miniconda.html>`_
-- `conda-forge <https://conda-forge.org>`_, a conda channel maintained 
+- `conda-forge <https://conda-forge.org>`_, a conda channel maintained
   with the latest ``scikit-image`` package
 
 
@@ -139,6 +146,8 @@ or other Python packages is not your best option:
 - As you make updates and add new packages you can fall victim to
   dependency conflicts, just as when using pip without a virtual environment.
 
+Build from source
+
 
 Additional help
 ------------------------------------------------------------------------------
@@ -151,7 +160,7 @@ If you still have questions, reach out through
 - `Stack Overflow <https://stackoverflow.com/questions/tagged/scikit-image>`_
 
 
-To suggest a change in these instructions, 
+To suggest a change in these instructions,
 `please open an issue on GitHub <https://github.com/scikit-image/scikit-image/issues>`_.
 
 Other platforms
@@ -183,7 +192,7 @@ Unsupported platforms include:
 Although these platforms lack official support, many of the core
 developers have experience with them and can help with questions.
 
-If you want to install on an unsupported platform, the 
+If you want to install on an unsupported platform, the
 `developer instructions <how-to-contribute>`_  describe how to build from source.
 
 Tell us which other platforms you'd like to see ``scikit-image`` on!
