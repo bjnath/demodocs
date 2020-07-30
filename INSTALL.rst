@@ -150,21 +150,21 @@ If you still have questions, reach out via
 - `Stack Overflow <https://stackoverflow.com/questions/tagged/scikit-image>`_
 
 
-To propose a change in this page,, 
-`open an issueon GitHub <https://github.com/scikit-image/scikit-image/issues>`_.
+To suggest a change in the install instructions, 
+`open an issue on GitHub <https://github.com/scikit-image/scikit-image/issues>`_.
 
 Other platforms
 ------------------------------------------------------------------------------
 
-We still support Windows 32-bit on x86 processors for now but urge switching
+We still support Windows 32-bit on x86 processors but urge switching
 to Windows 64-bit.
 
 Unsupported platforms include:
 
-1. Linux on 32 bit x86 processors.
-2. Linux on 32 bit on ARM processors (Raspberry Pi running Rapsbian):
+1. Linux on 32-bit x86 processors.
+2. Linux on 32-bit on ARM processors (Raspberry Pi running Rapsbian):
 
-   - While we do not official support this distribution, we point users to
+   - While we do not officially support this distribution, we point users to
      `piwheels <https://wwww.piwheels.org>`_
      and their
      `scikit-image's specific page <https://www.piwheels.org/project/scikit-image/>`_.
@@ -174,21 +174,20 @@ Unsupported platforms include:
      See
      `issue 4721 <https://github.com/scikit-image/scikit-image/issues/4721>`_.
 
-3. Linux on 64 bit ARM processors (NVidia Jetson):
+3. Linux on 64-bit ARM processors (NVidia Jetson):
 
    - Follow the conversation on
      `Issue 4705 <https://github.com/scikit-image/scikit-image/issues/4705>`_.
 
 Although these platforms lack official support, many of the core
-developers have experience using them. Do not hesitate to
-ask us questions pertaining to your case.
+developers have experience with them and can help with questions.
 
-If you want to try running ``scikit-image`` on an unsupported platform, the 
+If you want to install on an unsupported platform, the 
 `developer instructions <how-to-contribute>`_,  describe how to build from source.
 
-We are very intrested in how ``scikit-image`` is
-`used <https://github.com/scikit-image/scikit-image/issues/4375>`_.
 Tell us which other platforms you'd like to see ``scikit-image`` on!
+We are very interested in how ``scikit-image`` gets
+`used <https://github.com/scikit-image/scikit-image/issues/4375>`_.
 
 If you'd like to package ``scikit-image`` for as-yet-unsupported platform,
 reach out on GitHub.
