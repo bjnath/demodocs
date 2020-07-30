@@ -130,12 +130,12 @@ Python and provides virtual environments.
 System package manager
 ------------------------------------------------------------------------------
 
-Using a package manager (``yum``, ``apt-get``,...) to install ``scikit-learn``
-(or other Python packages) is not your best option:
+Using a package manager (``yum``, ``apt-get``, etc.) to install ``scikit-learn``
+or other Python packages is not your best option:
 
-- it's likely to be an older version
+- you're likely to get an older version
 
-- as you add other packages and make updates you can fall victim to
+- as you make updates and add new packages you can fall victim to
   dependency conflicts, just as when using pip without a virtual environment.
 
 
