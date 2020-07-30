@@ -21,9 +21,9 @@ How you install ``scikit-image`` depends on your needs and skill:
 Supported platforms
 ------------------------------------------------------------------------------
 
-- Windows 64 bit on x86 processors
-- Mac OSX on x86 processors
-- Linux 64 bit on x86 processors
+- Windows 64-bit on x86 processors
+- Mac OS X on x86 processors
+- Linux 64-bit on x86 processors
 
 For information on other platforms, see `Other platforms <#other-platforms>`_.
 
@@ -44,8 +44,8 @@ or, from the command line
 
    python -c "import skimage; print(skimage.__version__)"
 
-If the commandit succeeds, you'll see a ``scikit-image`` version number; it will be obvious
-if it fails.
+If the commandit succeeds, you'll see a ``scikit-image`` version number; it 
+will be obvious if it fails.
 
 Scientific Python distributions
 ------------------------------------------------------------------------------
