@@ -96,9 +96,7 @@ but `it's a bad idea that will bite you later \
 <https://en.wikipedia.org/wiki/Dependency_hell>`_.
 
 To install the current ``scikit-image`` you'll need at least Python 3.6. If
-your Python is older, you can find a compatible version of ``scikit-image``
-from `an older release \
-<https://github.com/scikit-image/scikit-image/releases>`_.
+your Python is older, pip will find the most recent compatible version.
 
 .. code-block:: sh
 
