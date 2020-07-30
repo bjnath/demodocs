@@ -105,7 +105,8 @@ your Python is older, pip will find the most recent compatible version.
   # Install scikit-image
   python -m pip install -U scikit-image
 
-or, include a selection of other scientific python packages as well:
+To include a selection of other scientific python packages as well,
+replace the last line with
 
 .. code-block:: sh
 
