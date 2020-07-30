@@ -190,6 +190,6 @@ Tell us which other platforms you'd like to see ``scikit-image`` on!
 We are very interested in how ``scikit-image`` gets
 `used <https://github.com/scikit-image/scikit-image/issues/4375>`_.
 
-If you'd like to package ``scikit-image`` for as-yet-unsupported platform,
+If you'd like to package ``scikit-image`` for an as-yet-unsupported platform,
 reach out on GitHub.
 
