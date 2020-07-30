@@ -124,7 +124,8 @@ Python and provides virtual environments.
 
 - `conda documentation <https://docs.conda.io>`_
 - `Miniconda <https://docs.conda.io/en/latest/miniconda.html>`_
-- `conda-forge <https://conda-forge.org>`_ a channel maintained with the latest ``scikit-image`` package.
+- `conda-forge <https://conda-forge.org>`_, a conda channel maintained 
+  with the latest ``scikit-image`` package
 
 
 System package manager
