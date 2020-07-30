@@ -96,7 +96,7 @@ is older, you can find a compatible version of ``scikit-image`` from
 
 .. code-block:: sh
 
-  # Update pip to a more recent version
+  # Update pip
   python -m pip install -U pip
   # Install scikit-image
   python -m pip install -U scikit-image
