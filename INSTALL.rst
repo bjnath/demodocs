@@ -133,9 +133,9 @@ System package manager
 Using a package manager (``yum``, ``apt-get``, etc.) to install ``scikit-learn``
 or other Python packages is not your best option:
 
-- you're likely to get an older version
+- You're likely to get an older version.
 
-- as you make updates and add new packages you can fall victim to
+- As you make updates and add new packages you can fall victim to
   dependency conflicts, just as when using pip without a virtual environment.
 
 
