@@ -45,7 +45,7 @@ or, from the command line
    python -c "import skimage; print(skimage.__version__)"
 
 You'll see the version number if ``scikit-image`` is installed and  
-failure messages otherwise.
+a failure message otherwise.
 
 Scientific Python distributions
 ------------------------------------------------------------------------------
