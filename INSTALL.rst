@@ -157,7 +157,7 @@ or other Python packages is not your best option:
 
 Building from source
 ------------------------------------------------------------------------------
-Prerequisite: A local version of the ``scikit-image`` git repo.
+Prerequisite: A local copy of the ``scikit-image`` git repo.
 
 In the top directory, run
 
