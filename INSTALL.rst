@@ -82,7 +82,7 @@ include related packages.
 pip
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Prerequisites to a pip install: You can use your system's command line to
+Prerequisites to a pip install: You're able to use your system's command line to
 install packages and are using a
 `virtual environment \
 <https://towardsdatascience.com/virtual-environments-104c62d48c54?gi=2532aa12906#ee81>`_
