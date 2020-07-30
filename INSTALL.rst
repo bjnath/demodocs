@@ -89,7 +89,7 @@ install packages and are using a
 <https://stackoverflow.com/questions/41573587/what-is-the-difference-between-venv-pyvenv-pyenv-virtualenv-virtualenvwrappe>`_\
 ).
 
-Nothing can stop you from using pip without virtual environments,
+Nothing will stop you from using pip without virtual environments,
 but `it's a bad idea that will bite you later \
 <https://en.wikipedia.org/wiki/Dependency_hell>`_.
 
