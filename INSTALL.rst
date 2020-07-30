@@ -200,5 +200,5 @@ We are very interested in how ``scikit-image`` gets
 `used <https://github.com/scikit-image/scikit-image/issues/4375>`_.
 
 If you'd like to package ``scikit-image`` for an as-yet-unsupported platform,
-reach out on GitHub.
+`reach out on GitHub <https://github.com/scikit-image/scikit-image/issues>`_.
 
