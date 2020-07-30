@@ -94,7 +94,7 @@ install packages and are using a
 There's nothing to stop you from using pip without virtual environments,
 but `it's a bad idea that will bite you later <???>`_. 
 In particular, if you use ``pip`` without a 
-virtual environment, do not use 'sudo' or install as root.
+virtual environment, do not use ``sudo`` or install as root.
 
 To install the current ``scikit-image`` you'll need at least Python 3.6. If your Python
 is older, you can find a compatible version of ``scikit-image`` from
@@ -145,14 +145,14 @@ install ``scikit-image``:
 
 - it's probably backlevel
 
-- you're susceptible to the kinds of problems as pip without virtual
-  environments.
+- as you install and update packages, you're susceptible to the same kinds 
+  of dependency conflicts you'd get using pip without a virtual environment.
 
 
 Additional help
 ------------------------------------------------------------------------------
 
-Should you still have questions, contact us via:
+If you still have questions, contact us:
 
 - Our `forum on image.sc <https://forum.image.sc/tags/scikit-image>`_
 - Our `mailing list <https://mail.python.org/mailman3/lists/scikit-image.python.org/>`_
@@ -160,18 +160,14 @@ Should you still have questions, contact us via:
 - `Stack Overflow <https://stackoverflow.com/questions/tagged/scikit-image>`_
 
 
-If the install instructions are faulty, please
+To propose a change in this page's instructions, 
 `open an issueon GitHub <https://github.com/scikit-image/scikit-image/issues>`_.
 
 Other platforms
 ------------------------------------------------------------------------------
 
-We support Windows 32-bit on x86 processors at present but recommend switching
+We still support Windows 32-bit on x86 processors for now but urge switching
 to Windows 64-bit.
-
-We are very interested in how ``scikit-image`` is
-`used <https://github.com/scikit-image/scikit-image/issues/4375>`_.
-Tell use the platforms you'd like to see ``scikit-image`` on!
 
 Unsupported platforms include:
 
@@ -197,11 +193,13 @@ Although these platforms lack official support, many of the core
 developers have experience using them. Do not hesitate to
 ask us questions pertaining to your case.
 
+If you want to try running ``scikit-image`` on an unsupported platform, the 
+`developer instructions <how-to-contribute>`_,  describe how to build from source.
 
-The `developer instructions <how-to-contribute>`_,  describe how to build from source.
+We are very intrested in how ``scikit-image`` is
+`used <https://github.com/scikit-image/scikit-image/issues/4375>`_.
+Tell us which other platforms you'd like to see ``scikit-image`` on!
 
-If you'd like to package ``scikit-image`` for a currently unsupported platform,
+If you'd like to package ``scikit-image`` for as-yet-unsupported platform,
 reach out on GitHub.
-
-
 
