@@ -143,7 +143,7 @@ or other Python packages is not your best option:
 Additional help
 ------------------------------------------------------------------------------
 
-If you still have questions, reach out via
+If you still have questions, reach out through
 
 - our `forum on image.sc <https://forum.image.sc/tags/scikit-image>`_
 - our `mailing list <https://mail.python.org/mailman3/lists/scikit-image.python.org/>`_
