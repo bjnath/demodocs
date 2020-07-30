@@ -150,7 +150,7 @@ If you still have questions, reach out via
 - `Stack Overflow <https://stackoverflow.com/questions/tagged/scikit-image>`_
 
 
-To suggest a change in the install instructions, 
+To suggest a change in these instructions, 
 `please open an issue on GitHub <https://github.com/scikit-image/scikit-image/issues>`_.
 
 Other platforms
