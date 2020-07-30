@@ -156,8 +156,8 @@ In the top directory, run
 
    pip install -e .
 
-``-e`` installs ``scikit-image`` in editable mode, meaning that ``import``
-will pick up changes immediately.
+Note the final dot. ``-e`` installs ``scikit-image`` in editable
+mode, meaning that ``import`` will pick up changes immediately.
 
 If you change Cython files (or have never built them before), you first
 will need to run:
