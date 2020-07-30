@@ -125,8 +125,6 @@ Miniconda is a bare-essentials version of the Anaconda package; you'll need to
 install packages like ``scikit-image`` yourself. Like Anaconda, it offers the
 convenience of installing Python and providing virtual environments.
 
-Adding packages can be unexpectedly slow as Miniconda works out dependencies.
-
 - `conda documentation <https://docs.conda.io>`_
 - `Miniconda <https://docs.conda.io/en/latest/miniconda.html>`_
 - `conda-forge <https://conda-forge.org>`_ a channel maintained with the latest ``scikit-image`` package.
@@ -140,22 +138,22 @@ install ``scikit-image``:
 
 - it's probably backlevel
 
-- as you install and update packages, you're susceptible to the same kinds 
-  of dependency conflicts you'd get using pip without a virtual environment.
+- as you install new packages and make updates you can fall victim to
+  dependency conflicts, just as when using pip without a virtual environment.
 
 
 Additional help
 ------------------------------------------------------------------------------
 
-If you still have questions, contact us:
+If you still have questions, reach out via
 
-- Our `forum on image.sc <https://forum.image.sc/tags/scikit-image>`_
-- Our `mailing list <https://mail.python.org/mailman3/lists/scikit-image.python.org/>`_
-- Our `chat channel <https://skimage.zulipchat.com/>`_
+- our `forum on image.sc <https://forum.image.sc/tags/scikit-image>`_
+- our `mailing list <https://mail.python.org/mailman3/lists/scikit-image.python.org/>`_
+- our `chat channel <https://skimage.zulipchat.com/>`_
 - `Stack Overflow <https://stackoverflow.com/questions/tagged/scikit-image>`_
 
 
-To propose a change in this page's instructions, 
+To propose a change in this page,, 
 `open an issueon GitHub <https://github.com/scikit-image/scikit-image/issues>`_.
 
 Other platforms
