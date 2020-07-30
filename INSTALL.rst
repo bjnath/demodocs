@@ -79,7 +79,7 @@ include related packages.
 pip
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-It's assumed you can use your system's command line to
+Prerequisites: You can use your system's command line to
 install packages and are using a
 `virtual environment <https://docs.python.org/3/tutorial/venv.html>`_
 
