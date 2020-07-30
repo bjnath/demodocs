@@ -172,20 +172,7 @@ You'll need to install Cython if this returns a message like
 
    ModuleNotFoundError: No module named 'Cython'
 
-
-Additional help
-------------------------------------------------------------------------------
-
-If you still have questions, reach out through
-
-- our `forum on image.sc <https://forum.image.sc/tags/scikit-image>`_
-- our `mailing list <https://mail.python.org/mailman3/lists/scikit-image.python.org/>`_
-- our `chat channel <https://skimage.zulipchat.com/>`_
-- `Stack Overflow <https://stackoverflow.com/questions/tagged/scikit-image>`_
-
-
-To suggest a change in these instructions,
-`please open an issue on GitHub <https://github.com/scikit-image/scikit-image/issues>`_.
+.. _other-platforms:
 
 Other platforms
 ------------------------------------------------------------------------------
@@ -225,4 +212,19 @@ We are very interested in how ``scikit-image`` gets
 
 If you'd like to package ``scikit-image`` for an as-yet-unsupported platform,
 `reach out on GitHub <https://github.com/scikit-image/scikit-image/issues>`_.
+
+
+Additional help
+------------------------------------------------------------------------------
+
+If you still have questions, reach out through
+
+- our `forum on image.sc <https://forum.image.sc/tags/scikit-image>`_
+- our `mailing list <https://mail.python.org/mailman3/lists/scikit-image.python.org/>`_
+- our `chat channel <https://skimage.zulipchat.com/>`_
+- `Stack Overflow <https://stackoverflow.com/questions/tagged/scikit-image>`_
+
+
+To suggest a change in these instructions,
+`please open an issue on GitHub <https://github.com/scikit-image/scikit-image/issues>`_.
 
