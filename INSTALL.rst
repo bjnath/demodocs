@@ -159,7 +159,7 @@ In the top directory, run
 ``-e`` installs ``scikit-image`` in editable mode, meaning that ``import``
 will pick up the changes immediately.
 
-If you change Cython files (or have never built them before), you firt 
+If you change Cython files (or have never built them before), you first 
 will need to run:
 
 .. code-block:: sh
