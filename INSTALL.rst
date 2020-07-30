@@ -16,7 +16,7 @@ How you install ``scikit-image`` depends on your needs and skill:
 
 - Easy but has pitfalls: `system package manager (yum, apt-get,...) <#system-package-manager>`_
 
-- `You're looking to contribute to scikit-image <#build-from-source>`_
+- `You're looking to contribute to scikit-image <#building-from-source>`_
 
 Supported platforms
 ------------------------------------------------------------------------------
@@ -135,7 +135,9 @@ Python and provides virtual environments.
   with the latest ``scikit-image`` package
 
 
-System package manager
+.. _system-package-manager:
+
+Installing via the system package manager
 ------------------------------------------------------------------------------
 
 Using a package manager (``yum``, ``apt-get``, etc.) to install ``scikit-image``
@@ -143,15 +145,15 @@ or other Python packages is not your best option:
 
 - You're likely to get an older version.
 
-- You'll probably want to make updates and add new packages outside 
-  the package manager, leaving you open to the same kind of 
+- You'll probably want to make updates and add new packages outside
+  the package manager, leaving you open to the same kind of
   dependency conflicts you see when using pip without a virtual environment.
-  
-- There's an added risk because operating systems use Python, so if you 
+
+- There's an added risk because operating systems use Python, so if you
   make system-wide Python changes (installing as root or using sudo),
   you can break the OS.
 
-Build from source
+Building from source
 ------------------------------------------------------------------------------
 Prerequisite: A local version of the ``scikit-image`` git repo.
 
