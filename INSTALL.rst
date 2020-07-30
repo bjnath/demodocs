@@ -14,9 +14,9 @@ How you install ``scikit-image`` depends on your needs and skill:
 
   - `conda <#install-via-conda>`_
 
-- Easy with pitfalls: `system package manager (yum, apt-get,...) <#system-package-manager>`_
+- Easy but has pitfalls: `system package manager (yum, apt-get,...) <#system-package-manager>`_
 
-- `Your goal is to contribute to scikit-image <???>`_
+- `You're looking to contribute to scikit-image <???>`_
 
 Supported platforms
 ------------------------------------------------------------------------------
