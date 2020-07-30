@@ -44,6 +44,8 @@ or, from the command line
 
    python -c "import skimage; print(skimage.__version__)"
 
+(Try ``python3`` if ``python`` is unsuccessful.)
+
 You'll see the version number if ``scikit-image`` is installed and
 an error message otherwise.
 
