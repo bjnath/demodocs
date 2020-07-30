@@ -210,8 +210,8 @@ Unsupported platforms include:
 Although these platforms lack official support, many of the core
 developers have experience with them and can help with questions.
 
-If you want to install on an unsupported platform, the
-`developer instructions <how-to-contribute>`_  describe how to build from source.
+If you want to install on an unsupported platform, try
+`building from source <#building-from-source>`_.
 
 Tell us which other platforms you'd like to see ``scikit-image`` on!
 We are very interested in how ``scikit-image`` gets
