@@ -105,10 +105,6 @@ your Python is older, pip will find the most recent compatible version.
   # Install scikit-image
   python -m pip install -U scikit-image
 
-
-``-U`` upgrades all packages to the newest available version.
-To install a particular ``scikit-image`` version, drop `-U` and use
-
 .. code-block:: sh
 
    python -m pip install scikit-image==0.14.5
