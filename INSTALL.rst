@@ -119,8 +119,8 @@ conda
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Miniconda is a bare-essentials version of the Anaconda package; you'll need to
-install packages like ``scikit-image`` yourself. Like Anaconda, it offers the
-convenience of installing Python and providing virtual environments.
+install packages like ``scikit-image`` yourself. Like Anaconda, it installs
+Python and provides virtual environments.
 
 - `conda documentation <https://docs.conda.io>`_
 - `Miniconda <https://docs.conda.io/en/latest/miniconda.html>`_
