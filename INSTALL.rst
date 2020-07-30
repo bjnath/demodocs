@@ -151,7 +151,7 @@ If you still have questions, reach out via
 
 
 To suggest a change in the install instructions, 
-`open an issue on GitHub <https://github.com/scikit-image/scikit-image/issues>`_.
+`please open an issue on GitHub <https://github.com/scikit-image/scikit-image/issues>`_.
 
 Other platforms
 ------------------------------------------------------------------------------
